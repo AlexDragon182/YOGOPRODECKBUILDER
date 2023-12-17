@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.Fragments.Deck_Cards">
+
+<androidx.appcompat.widget.SearchView
+    android:id="@+id/svDeckCards"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDeckCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
